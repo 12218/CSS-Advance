@@ -1,0 +1,8 @@
+div.window {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    border: black solid 2px;
+    display: inline-block;
+    margin: 0 auto;
+}
