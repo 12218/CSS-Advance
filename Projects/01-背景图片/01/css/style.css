@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div.nav {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+a {
+    display: inline-block;
+    box-sizing: border-box;
+    /* height: 100%; */
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 8px;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
