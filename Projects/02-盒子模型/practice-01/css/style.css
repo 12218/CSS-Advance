@@ -21,7 +21,11 @@ div h3 {
 }
 
 div img {
-    margin: 7px 0 0 8px;
+    /* margin: 7px 0 0 8px; */
+    box-sizing: border-box;
+    padding: 7px 8px 0 8px;
+    height: 160px;
+    width: 100%;
     /* height: 102px;
     width: 100%; */
 }
@@ -34,4 +38,18 @@ div ul li a {
     font-size: 12px;
     color: #666;
     text-decoration: none;
+}
+
+div ul {
+    margin-left: 8px;
+}
+
+div li {
+    padding-left: 10px;
+    line-height: 26px;
+}
+
+div ul li a:hover {
+    text-decoration: underline;
+    color: #FF8400;
 }
